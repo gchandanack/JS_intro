@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//1
+    function sum(a,b){
+    return a+b;
+}
+console.log(sum(2,3));
+
+
+//2(named)
+function time(a,b){
+    return a*b;
+}
+console.log(time(1,60));
+console.log(time(2,60 ));
+console.log(time(3,60 ));
+
+
+//2(anonymous)
+var a=function (a,b){
+    return a*b;
+}
+console.log(a(1,60));
+console.log(a(2,60 ));
+console.log(a(3,60 ));
+
+//3
+function increase(a){
+    return a+1;
+}
+console.log(increase(5));
+console.log(increase(6));
+console.log(increase(7));
+
+//4
+function age(a){
+    return a*365;
+
+}
+console.log(age(1));
+console.log(age(2));
+console.log(age(25));
+
+
+//5
+function electricity(a,b){
+    return a*b;
+}
+console.log(electricity(230,10 ));
+
+
+//6
+function word(a,b){
+    return a+ b;
+}
+console.log(word("something"," "));
+
+
+//7
+function add(a,b){
+ if ( a === 10 || a+b===10 || b===10){
+    return true;
+ }
+ return false;
+}
+console.log(add(10,0));
+console.log(add(5,5));
+console.log(add(7,3));
+
+
+//8
+function  wrd$length(a,b){
+    if (a.length===b.length){
+    return true;
+}else{
+return false;
+}
+}
+console.log(wrd$length("chandu","kalyan"));
+
+
+//9
+var add = (a) => {
+    return a ;
+};
+console.log(add("Hello! Good morning"))
+
+
+
+
+    </script>
+</body>
+</html>
